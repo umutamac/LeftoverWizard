@@ -1,5 +1,5 @@
 // Sequelize layout of what data gets stored when a User saves a recipe
-
+const compression = require('compression');
 module.exports = function (sequelize, DataTypes) {
     var Recipe = sequelize.define("Recipe", {
         // name

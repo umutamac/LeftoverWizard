@@ -1,5 +1,6 @@
 var passport = require("passport");
 var LocalStrategy = require("passport-local").Strategy;
+const compression = require('compression');
 
 var db = require("../models");
 

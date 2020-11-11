@@ -2,6 +2,7 @@
 var db = require("../models");
 var passport = require("../config/passport");
 const { query } = require("express");
+const compression = require('compression');
 require('dotenv').config();
 
 module.exports = function (app) {

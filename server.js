@@ -1,6 +1,7 @@
 // Requiring necessary npm packages
 var express = require("express");
 var session = require("express-session");
+const compression = require('compression');
 // Requiring passport as we've configured it
 var passport = require("./config/passport");
 

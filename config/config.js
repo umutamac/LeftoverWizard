@@ -1,3 +1,4 @@
+const compression = require('compression');
 require("dotenv").config();
 
 module.exports = {
